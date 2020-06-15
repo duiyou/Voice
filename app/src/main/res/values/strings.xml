@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Voice</string>
+
+    <!--翻译活动字符串-->
+    <string name="str_translate_chinese">中文</string>
+    <string name="str_translate_english">English</string>
+
+    <!--活动的标题-->
+    <string name="str_translate">翻译</string>
+    <string name="str_chat">聊天</string>
+    <string name="str_memo">备忘录</string>
+    <string name="str_updatememo">修改备忘录</string>
+    <string name="str_speechset">设置</string>
+
+    <!--修改备忘录的默认hint-->
+    <string name="str_updatememo_hint">
+        请在此输入内容，若不输入则删除此备忘
+    </string>
+
+    <!--语音设置的单选框-->
+    <string name="str_speechset_radiobutton1">普通女声</string>
+    <string name="str_speechset_radiobutton2">普通男生</string>
+    <string name="str_speechset_radiobutton3">特别男生</string>
+    <string name="str_speechset_radiobutton4">情感男生</string>
+    <string name="str_speechset_radiobutton5">情感女生</string>
+
+    <!--语音设置的音频-->
+    <string name="str_speechset_volume">音量：</string>
+    <string name="str_speechset_speed">语速：</string>
+    <string name="str_speechset_pitch">音调：</string>
+
+    <!--聊天界面初始化机器人提示-->
+    <string name="str_chat_hint">欢迎使用此软件，语音指令说出“小白使用指令”了解功能吧</string>
+
+    <!--小白使用指令-->
+    <string name="str_how_to_use1">
+        欢迎使用此软件。\n
+        使用方式如下：\n
+        （1）在打开此软件的前提下，在任何地方（包括其他APP界面或者系统界面）都可以说以下指令：“小白聊天”，“小白翻译”，“小白备忘”打开任意界面。\n
+        （2）在聊天界面说“小白聊天”，在备忘录界面说“小白备忘”，在翻译界面说“小白翻译”均可直接开启语音识别按键。\n
+        （3）语音时可直接按停止，也可在无声音时会自动停止语音\n
+        （4）回退按键无法关闭应用，必须在手机的运行应用管理关闭此应用
+    </string>
+    <string name="str_how_to_use2">
+        （1）聊天界面语音时说“打开微信”即可打开微信。可打开常用应用\n
+        （2）备忘录界面语音时带有“明天”、“后天”、“周一”、“星期二”、“3月8号”、“5月19日”均可识别出日期\n
+    </string>
+
+</resources>

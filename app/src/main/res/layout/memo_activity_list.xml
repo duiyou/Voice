@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <com.example.activity.memo.SlidingMenu
+        android:id="@+id/memo_activity_list_slidingmenu"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--android:background="@drawable/memo_activity_list_background"
+                    android:clickable="true"-->
+                <RelativeLayout
+                    android:id="@+id/memo_activity_list_layoutleft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/memo_activity_list_touchbackground2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp">
+                    <TextView
+                        android:id="@+id/memo_activity_list_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#123"
+                        android:textSize="15sp"
+                        android:focusable="false"
+                        android:maxLines="1"
+                        android:maxLength="18"
+                        android:text="继续说啊"/>
+
+                    <TextView
+                        android:id="@+id/memo_activity_list_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:gravity="center_vertical|left"
+                        android:focusable="false"
+                        android:textSize="20sp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:maxEms="7"
+                        android:text="想啥呢" />
+                    <!--android:maxLength="10"-->
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/memo_activity_list_layoutright"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="删除"
+                    android:gravity="center"
+                    android:background="#FF0000" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.example.activity.memo.SlidingMenu>
+</LinearLayout>
+
+
+
+
+<!--原来的-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/memo_activity_list_layout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@drawable/memo_activity_list_background"
+    android:clickable="true"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+<TextView
+    android:id="@+id/memo_activity_list_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="15dp"
+    android:textColor="#123"
+    android:textSize="15sp"
+    android:focusable="false"
+    android:maxLines="1"
+    android:maxLength="18"
+    android:text="继续说啊"/>
+
+<TextView
+    android:id="@+id/memo_activity_list_context"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="15dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:gravity="center_vertical|left"
+    android:focusable="false"
+    android:textSize="20sp"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:maxEms="9"
+    android:text="想啥呢" />
+&lt;!&ndash;android:maxLength="10"&ndash;&gt;
+</RelativeLayout>-->
+
+

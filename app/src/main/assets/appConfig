@@ -1,0 +1,4 @@
+SpeechSynthesis.speechSpeaker=1
+SpeechSynthesis.speechVolume=5
+SpeechSynthesis.speechSpeed=5
+SpeechSynthesis.speechPitch=5

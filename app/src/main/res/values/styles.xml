@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--溢出菜单样式 -->
+    <style name="ToolBarPopupTheme" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:paddingLeft">2dp</item>
+
+        <item name="android:colorBackground">#cf292929</item>
+        <item name="android:textColor">#ffffff</item>
+
+        <!--<item name="android:dropDownWidth">match_parent</item>
+        <item name="android:paddingRight">5dp</item>
+        &lt;!&ndash; 弹出层垂直方向上的偏移，即在竖直方向上距离Toolbar的距离，值为负则会盖住Toolbar &ndash;&gt;
+        <item name="android:dropDownVerticalOffset">55dip</item>
+        &lt;!&ndash; 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 &ndash;&gt;
+        <item name="android:dropDownHorizontalOffset">0dip</item>-->
+    </style>
+
+    <!--chatactivity标题栏字体-->
+    <style name="chat_activity_toolbar_title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+</resources>

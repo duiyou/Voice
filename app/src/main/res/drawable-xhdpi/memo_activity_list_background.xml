@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--一个selector更改点击时背景的不用颜色-->
+    <!--参考-->
+    <!--https://blog.csdn.net/qq_20785431/article/details/50198315-->
+    <!--https://blog.csdn.net/Haskei/article/details/79521914-->
+    <!--https://blog.csdn.net/Double2hao/article/details/50622313-->
+    <!--控件必须加上android:clickable="true"-->
+
+    <!--单击时是一个带圆角,白色背景,绿色边框的矩形-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="5dp" />
+            <!--填充颜色为白色-->
+            <solid android:color="#C4C4C4" />
+            <!--描边-->
+            <stroke android:color="#09000000" android:width="8px" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <!-- 圆角 -->
+            <corners android:radius="5dp" />
+            <!--填充颜色为白色-->
+            <solid android:color="#ffffff" />
+            <!-- 描边 -->
+            <stroke android:color="#09000000" android:width="8px" />
+        </shape>
+    </item>
+
+
+</selector>

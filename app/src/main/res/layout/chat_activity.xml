@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_activity_background">
+
+    <!--标题栏,androidx的新标签-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/chat_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        app:title="@string/str_chat"
+        android:background="#00000000"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:popupTheme="@style/ToolBarPopupTheme"
+        android:fitsSystemWindows="true"
+        app:titleTextAppearance="@style/chat_activity_toolbar_title">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--Android升级了依赖库，使用androidx新标签-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_activity_list"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/chat_activity_toolbar"
+        android:layout_above="@+id/chat_activity_bottomlayout">
+        <!--https://blog.csdn.net/changsimeng/article/details/73278020-->
+        <!--分割线divider-->
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <FrameLayout
+        android:id="@+id/chat_activity_bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+                android:id="@+id/chat_activity_progressbutton"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:indeterminate="true"
+                android:visibility="invisible"
+                app:spb_sections_count="4"
+                app:spb_color="#FF0000"
+                app:spb_speed="2.0"
+                app:spb_stroke_width="4dp"
+                app:spb_stroke_separator_length="4dp"
+                app:spb_reversed="false"
+                app:spb_mirror_mode="false"
+                app:spb_progressiveStart_activated="true"
+                app:spb_progressiveStart_speed="1.5"
+                app:spb_progressiveStop_speed="10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:gravity="bottom">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left">
+                    <!--只是用来装饰而已,-->
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="15dp"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/chat_activity_speechbutton"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:src="@mipmap/chat_activity_audio2"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="15dp"
+                        android:padding="8dp"
+                        android:background="@drawable/chat_activity_speechbutton_backgrounddefault"/>
+
+                    <com.tuyenmonkey.mkloader.MKLoader
+                        android:id="@+id/chat_activity_mkloader"
+                        android:layout_width="80dp"
+                        android:layout_height="15dp"
+                        android:layout_margin="15dp"
+                        android:padding="8dp"
+                        android:visibility="gone"
+                        app:mk_type="ThreePulse"
+                        app:mk_color="#1296db" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right">
+                    <!--这里是空的-->
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>
+
