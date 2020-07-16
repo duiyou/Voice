@@ -17,7 +17,7 @@
 
 ## APP主要界面
 #### 语音聊天
-<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture1.jpg "/>
+<img width="200" height="400" src="https://raw.githubusercontent.com/duiyou/Voice/master/app/src/main/res/readmepicture/readmepicture1.jpg "/>
 <img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture2.jpg "/>
 <img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture3.jpg "/>
 <img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture4.jpg "/>
