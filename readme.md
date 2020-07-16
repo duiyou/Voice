@@ -17,16 +17,16 @@
 
 ## APP主要界面
 #### 语音聊天
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture1.jpg "/>
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture2.jpg "/>
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture3.jpg "/>
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture4.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture1.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture2.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture3.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture4.jpg "/>
 
 #### 语音备忘
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture5.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture5.jpg "/>
 
 #### 语音翻译
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture6.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture6.jpg "/>
 
 #### 语音设置
-<img width="200" height="400" src="app/src/main/res/readmepicture/readmepicture7.jpg "/>
+<img width="200" height="400" src="./app/src/main/res/readmepicture/readmepicture7.jpg "/>
